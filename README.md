@@ -1,6 +1,6 @@
 # SIPENBK (Sistem Informasi Penjadwalan BK)
 
-SIPENBK adalah sistem penjadwalan bimbingan konseling berbasis web yang digunakan di SMAN 1 Kwanyar. Sistem ini dirancang dengan tampilan modern dan dilengkapi manajemen role, laporan BK, dan notifikasi WhatsApp otomatis melalui Fonnte API. Dibangun menggunakan Laravel 12 dan Tailwind CSS.
+SIPENBK adalah sistem penjadwalan bimbingan konseling berbasis web yang digunakan di SMAN 1 Kwanyar. Sistem ini dirancang dengan tampilan modern dan dilengkapi manajemen role, laporan BK, dan notifikasi WhatsApp otomatis melalui Fonnte API. Dibangun menggunakan Laravel 12 dan Tailwind CSS. Link public web https://sipenbk.informatik.my.id/ 
 
 ---
 
