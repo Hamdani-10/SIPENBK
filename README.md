@@ -114,10 +114,10 @@ Notifikasi dilakukan menggunakan **Fonnte API**:
 - **Laravel 12** (Backend)
 - **Tailwind CSS** (Styling modern)
 - **Alpine.js** (Interaksi UI ringan)
-- **JavaScript**
-- **HTML**
+- **JavaScript** (Dynamic UI)
+- **HTML** (Structure)
 - **Fonnte API** (Notifikasi WhatsApp otomatis)
-- **MySQL**
+- **MySQL** (Database)
 
 ---
 
