@@ -1,4 +1,145 @@
-<<<<<<< HEAD
+# SIPENBK (Sistem Informasi Penjadwalan BK)
+
+SIPENBK adalah sistem penjadwalan bimbingan konseling berbasis web yang digunakan di SMAN 1 Kwanyar. Sistem ini dirancang dengan tampilan modern dan dilengkapi manajemen role, laporan BK, dan notifikasi WhatsApp otomatis melalui Fonnte API. Dibangun menggunakan Laravel 12 dan Tailwind CSS.
+
+---
+
+## 🚀 Fitur Utama
+
+SIPENBK memiliki fitur yang berbeda sesuai peran (role) pengguna: **Admin**, **Guru BK**, dan **Siswa**.
+
+<p align="center">
+  <img src="public/screenshots/login-bujang.png" width="500">
+</p>
+
+<p align="center">
+  <img src="public/screenshots/admindas.png" width="500">
+</p>
+
+---
+
+## 🖼️ Screenshot Lainnya
+
+<p align="center">
+  <img src="public/screenshots/guruhome.png" width="600">
+  <img src="public/screenshots/jadwalread.png" width="600">
+  <img src="public/screenshots/notif-wa.png" width="600">
+  <img src="public/screenshots/laporan.png" width="600">
+</p>
+
+---
+
+## 👑 Admin
+
+Admin memiliki akses penuh untuk mengelola seluruh data dalam sistem:
+
+### **Manajemen Data**
+- Mengelola user (admin, guru BK, siswa)
+- Mengatur hak akses / role
+- Mengelola data guru BK
+- Mengelola data siswa
+- Mengelola panduan sistem
+
+### **Dashboard**
+- Statistik jumlah siswa, guru BK, jadwal, laporan
+
+### **Jadwal BK**
+- Membuat, mengedit, dan menghapus semua jadwal
+- Notifikasi otomatis via WhatsApp
+
+### **Laporan BK**
+- Melihat, mengedit, dan menghapus laporan BK
+
+---
+
+## 👨‍🏫 Guru BK
+
+Guru BK memiliki fitur khusus untuk melayani kebutuhan konseling siswa:
+
+### **Menu Siswa**
+- Mengelola data siswa di dalam sistem
+
+### **Jadwal BK**
+- Membuat jadwal dengan siswa
+- Mengelola jadwal pribadi
+- Mendapatkan notifikasi WhatsApp ketika:
+  - Jadwal baru dibuat
+  - Siswa mengajukan jadwal
+- Mengirim notifikasi ke orang tua ketika diperlukan (pemanggilan)
+
+### **Laporan BK**
+- Membuat laporan hasil bimbingan
+- Mengedit dan melihat riwayat laporan
+
+### **Panduan**
+- Mengakses informasi cara penggunaan sistem
+
+### **Profil**
+- Mengubah foto profil
+
+---
+
+## 🎓 Siswa
+
+Siswa mendapatkan akses sesuai kebutuhan individu:
+
+### **Jadwal BK**
+- Membuat jadwal dengan guru BK
+- Mendapatkan notifikasi WhatsApp setelah membuat jadwal
+- Guru BK juga mendapat notifikasi
+
+### **Laporan BK**
+- Melihat laporan dari guru BK
+
+### **Panduan**
+- Melihat cara penggunaan sistem
+
+### **Profil**
+- Mengganti foto profil
+
+---
+
+## 📩 Alur Notifikasi WhatsApp
+
+Notifikasi dilakukan menggunakan **Fonnte API**:
+
+- Siswa → buat jadwal → **Siswa dan Guru BK menerima notif**
+- Guru BK → buat jadwal → **Guru BK dan Siswa menerima notif**
+- Guru BK → jadwalkan pemanggilan → **Orang tua dan siswa menerima notif**
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- **Laravel 12** (Backend)
+- **Tailwind CSS** (Styling modern)
+- **Alpine.js** (Interaksi UI ringan)
+- **JavaScript**
+- **HTML**
+- **Fonnte API** (Notifikasi WhatsApp otomatis)
+- **MySQL**
+
+---
+
+<!-- ## 🧩 Instalasi
+
+```bash
+git clone https://github.com/Hamdani-10/SIPENBK.git
+cd SIPENBK
+
+composer install
+npm install
+npm run build
+
+cp .env.example .env
+php artisan key:generate
+
+# Atur konfigurasi database lalu:
+php artisan migrate --seed
+
+php artisan serve -->
+
+<<<<<<< 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">

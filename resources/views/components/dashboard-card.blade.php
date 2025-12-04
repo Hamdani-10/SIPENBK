@@ -1,10 +1,3 @@
-/**
- * Copyright (c) 2025 Hamdani Kevin
- * This project is part of the SIPENBK Counseling Scheduling System.
- * All rights reserved.
- */
-
-
 @props(['icon', 'label', 'value', 'color' => 'blue'])
 
 @php

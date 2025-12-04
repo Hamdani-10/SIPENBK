@@ -1,10 +1,4 @@
 <?php
-/**
- * Copyright (c) 2025 Hamdani Kevin
- * This project is part of the SIPENBK Counseling Scheduling System thesis.
- * All rights reserved.
- */
-
 
 namespace App\Http\Controllers\Admin;
 
